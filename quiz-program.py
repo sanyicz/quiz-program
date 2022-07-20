@@ -56,7 +56,6 @@ class QuizProgram(object):
         self.actQuestion = None
         self.correct, self.notCorrect = 0, 0
 
-        
         self.window = window
         self.window.columnconfigure(0, weight=1) #column=0 of window expands to the size of window (menuFrame, mainFrame also)
 ##        self.window.rowconfigure(0, weight=1)
