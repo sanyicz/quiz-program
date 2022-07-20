@@ -1,0 +1,153 @@
+[
+	{
+		"_comment" : "",
+		"category" : "physics",
+		"type" : "simple_choice",
+		"question" : "Where is gravity stronger, on Earth or the Moon?",
+		"images" : [],
+		"answers" : ["Earth"],
+		"options" : [
+					"Earth",
+					"Moon"
+					]
+	},
+	{
+		"_comment" : "",
+		"category" : "physics",
+		"type" : "simple_choice",
+		"question" : "True or false? Iron is attracted by magnets.",
+		"images" : [],
+		"answers" : ["True"],
+		"options" : [
+					"True",
+					"False"
+					]
+	},
+	{
+		"_comment" : "",
+		"category" : "physics",
+		"type" : "simple_choice",
+		"question" : "Ohms measure what?",
+		"images" : [],
+		"answers" : ["Electric resistance"],
+		"options" : [
+					"Electric resistance",
+					"Electric current",
+					"Electric voltage",
+					"Inductivity",
+					"Capacity"
+					]
+	},
+	{
+		"_comment" : "",
+		"category" : "physics",
+		"type" : "multiple_choice",
+		"question" : "Which of the following celestial bodies are planets?",
+		"images" : [],
+		"answers" : ["Venus", "Mars", "Jupiter"],
+		"options" : [
+					"Mars",
+					"Pluto",
+					"Jupiter",
+					"Ceres",
+					"Venus"
+					]
+	},
+	{
+		"_comment" : "",
+		"category" : "physics",
+		"type" : "simple_choice",
+		"question" : "What is the hardest natural substance on in the world?",
+		"images" : [],
+		"answers" : ["Diamond"],
+		"options" : [
+					"Diamond",
+					"Titanium",
+					"Glass",
+					"Steel"
+					]
+	},
+	{
+		"_comment" : "",
+		"category" : "math",
+		"type" : "simple_choice",
+		"question" : "What is the name of the part of mathematics in which letters and other general symbols are used to represent numbers and quantities in formulae and equations?",
+		"images" : [],
+		"answers" : ["Algebra"],
+		"options" : [
+					"Algebra",
+					"Geometry",
+					"Calculus",
+					"Number theory"
+					]
+	},
+	{
+		"_comment" : "",
+		"category" : "math",
+		"type" : "simple_choice",
+		"question" : "How many sides does a heptagon have?",
+		"images" : [],
+		"answers" : ["7"],
+		"options" : [
+					"4",
+					"6",
+					"7",
+					"9",
+					"10"
+					]
+	},
+	{
+		"_comment" : "",
+		"category" : "math",
+		"type" : "simple_choice",
+		"question" : "What do the internal angles of a triangle add up to?",
+		"images" : [],
+		"answers" : ["180 degress"],
+		"options" : [
+					"90 degress",
+					"180 degress",
+					"360 degrees"
+					]
+	},
+	{
+		"_comment" : "",
+		"category" : "biology",
+		"type" : "simple_choice",
+		"question" : " What is botany the study of?",
+		"images" : [],
+		"answers" : ["Plants"],
+		"options" : [
+					"Animals",
+					"Fungi",
+					"Plants"
+					]
+	},
+	{
+		"_comment" : "",
+		"category" : "biology",
+		"type" : "simple_choice",
+		"question" : "What vitamin does the sun’s ultraviolet rays help the skin produce?",
+		"images" : [],
+		"answers" : ["D"],
+		"options" : [
+					"Vitamin A",
+					"Vitamin B",
+					"Vitamin C",
+					"Vitamin D",
+					"Vitamin K"
+					]
+	},
+	{
+		"_comment" : "",
+		"category" : "biology",
+		"type" : "simple_choice",
+		"question" : "Animals which eat both plants and other animals are known as what?",
+		"images" : [],
+		"answers" : ["Omnivores"],
+		"options" : [
+					"Omnivores",
+					"Carnivores",
+					"Herbivores"
+					]
+	}
+]
