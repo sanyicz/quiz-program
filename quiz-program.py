@@ -227,21 +227,22 @@ class QuizProgram(object):
         self.window.destroy()
 
 
-file = open("questions.json", "r", encoding='utf-8')
-questions = json.load(file)
-##print(questions[0])
-question_objects = []
-for question in questions:
-    if question['question'] != "":
-        Q = Question(*question.values())
-        question_objects.append(Q)
-shuffle(question_objects)
+if __name__ == '__main__':
+    file = open("questions.json", "r", encoding='utf-8')
+    questions = json.load(file)
+##    print(questions[0])
+    question_objects = []
+    for question in questions:
+        if question['question'] != "":
+            Q = Question(*question.values())
+            question_objects.append(Q)
+    shuffle(question_objects)
 
-window = tk.Tk()
-##screen_width = window.winfo_screenwidth()
-##screen_height = window.winfo_screenheight()
-##print(screen_width, 'x', screen_height)
-screen_width, screen_height = 500, 500
-window.geometry(str(screen_width) + 'x' + str(screen_height))
-quizProgram = QuizProgram(window, screen_width, question_objects)
-window.mainloop()
+    window = tk.Tk()
+##    screen_width = window.winfo_screenwidth()
+##    screen_height = window.winfo_screenheight()
+##    print(screen_width, 'x', screen_height)
+    screen_width, screen_height = 500, 500
+    window.geometry(str(screen_width) + 'x' + str(screen_height))
+    quizProgram = QuizProgram(window, screen_width, question_objects)
+    window.mainloop()
